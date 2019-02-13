@@ -1,0 +1,247 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;;
+ }
+ div.parent{
+    background-color:white;
+    height: 650px;
+    width: 500px;
+   
+}
+div.parent>div{
+    width: 50px;
+    height: 50px;
+    animation-name: one;
+    animation-duration: 7s;
+    animation-direction: normal;
+    position: relative;
+    animation-iteration-count: infinite
+}
+@keyframes one{
+    0%{top:0px;left: 0px;background-color: black}
+    20%{top: 150px;left:150px;background-color: rgb(18, 18, 19)}
+    40%{top:150px;left: 150px;background-color: rgb(48, 48, 48)}
+    60%{top: 150px;left: 150px;background-color: rgb(34, 3, 65)}
+    80%{top: 150px;left: 150px;background-color: rgb(56, 86, 218)}
+    100%{top: 150px;left: 150px;background-color: rebeccapurple}
+}
+.parent div:nth-child(2){
+  
+    width: 50px;
+    height: 50px;
+    animation-name: two;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes two{
+    0%{top: -50px;left: 0px;background-color: black}
+    20%{top:150px;left: 150px;background-color:rgb(18, 18, 19)}
+    40%{top:150px;left: 150px;background-color: rgb(48, 48, 48)}
+    60%{top: 150px;left: 150px;background-color: rgb(34, 3, 65)}
+    80%{top: 150px;left: 150px;background-color: rgb(56, 86, 218)}
+    100%{top: 150px;left: 150px;background-color: rebeccapurple}
+}
+.parent div:nth-child(3){
+  
+    width: 50px;
+    height: 50px;
+    animation-name: three;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes three{
+    0%{top:-100px;left: 0px;background-color: black}
+    20%{top: 50px;left: 200px;background-color:rgb(18, 18, 19) }
+    40%{top: 150px;left: 150px;background-color: rgb(48, 48, 48)}
+    60%{top: 150px;left: 150px;background-color: rgb(34, 3, 65)}
+    80%{top: 150px;left: 150px;background-color: rgb(56, 86, 218)}
+    100%{top: 150px;left: 150px;background-color: rebeccapurple}
+}
+.parent div:nth-child(4){
+    width: 50px;
+    height: 50px;
+    animation-name: four;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes four{
+    0%{top:-150px;left:0px;background-color: black}
+    20%{top:100px;left: 150px;background-color: rgb(18, 18, 19)}
+    40%{top: 150px;left: 200px;background-color: rgb(48, 48, 48)}
+    60%{top: 150px;left: 150px;background-color: rgb(34, 3, 65)}
+    80%{top: 150px;left: 150px;background-color: rgb(56, 86, 218)}
+    100%{top: 150px;left: 150px;background-color: rebeccapurple}
+}
+.parent div:nth-child(5){
+    width: 50px;
+    height: 50px;
+    animation-name: five;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes five{
+    0%{top:-200px;left:0px;background-color: black}
+    20%{top: 100px;left: 350px;background-color: rgb(18, 18, 19)}
+    40%{top: 100px;left: 250px;background-color: rgb(48, 48, 48)}
+    60%{top: -50px;left:200px ;background-color: rgb(34, 3, 65)}
+    80%{top: -50px;left:200px ;background-color: rgb(56, 86, 218)}
+    100%{top: -50px;left:200px ;background-color: rebeccapurple}
+}
+.parent div:nth-child(6){
+    width: 50px;
+    height: 50px;
+    animation-name: six;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes six{
+    0%{top:-250px;left:0px;background-color: black}
+    20%{top: -50px;left: 250px;background-color: rgb(18, 18, 19)}
+    40%{top:-100px;left: 300px;background-color: rgb(48, 48, 48)}
+    60%{top:-100px;left: 250px;background-color: rgb(34, 3, 65)}
+    80%{top:-100px;left: 250px;background-color: rgb(56, 86, 218)}
+    100%{top:0px;left: 250px;background-color: rebeccapurple}
+}
+.parent div:nth-child(7){
+    width: 50px;
+    height: 50px;
+    animation-name: seven;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes seven{
+    0%{top:-300px;left:0px;background-color: black}
+    20%{top:-50px;left: 250px;background-color: rgb(18, 18, 19)}
+    40%{top:-100px;left: 300px;background-color:rgb(48, 48, 48) }
+    60%{top: -100px;left: 250px;background-color: rgb(34, 3, 65)}
+    80%{top: -100px;left: 250px;background-color: rgb(56, 86, 218)}
+    100%{top: -100px;left: 250px;background-color: rebeccapurple}
+}
+.parent div:nth-child(8){
+    width: 50px;
+    height: 50px;
+    animation-name: eight;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes eight{
+    0%{top:-350px;left:0px;background-color: black}
+    20%{top:-50px;left: 250px;background-color: rgb(18, 18, 19)}
+    40%{top:-100px;left:300px;background-color: rgb(48, 48, 48)}
+    60%{top: -100px;left: 200px;background-color: rgb(34, 3, 65)}
+    80%{top: -100px;left: 200px;background-color: rgb(56, 86, 218)}
+    100%{top:-50px;left: 200px;background-color: rebeccapurple}
+}
+.parent div:nth-child(9){
+    width: 50px;
+    height: 50px;
+    animation-name: nine;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes nine{
+    0%{top:-400px;left:0px;background-color: black}
+    20%{top: -250px;left: 300px;background-color: rgb(18, 18, 19)}
+    40%{top:0px;background-color: white;}
+    60%{top:-100px;left: 250px;background-color: rgb(34, 3, 65)}
+    80%{top:-100px;left: 250px;background-color: rgb(56, 86, 218)}
+    100%{top:0px;background-color: white;}
+}
+.parent div:nth-child(10){
+    width: 50px;
+    height: 50px;
+    animation-name: ten;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes ten{
+    0%{top:-450px;left:0px;background-color: black}
+    20%{top:-150px;left: 150px;background-color: rgb(18, 18, 19)}
+    40%{top:0px;background-color: white;}
+    60%{top:0px;background-color: white;}
+    80%{top: -200px;left: 250px;background-color: rgb(56, 86, 218)}
+    100%{top:0px;background-color: white;}
+}
+.parent div:nth-child(11){
+    width: 50px;
+    height: 50px;
+    animation-name: eleven;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes eleven{
+    0%{top:-500px;left:0px;background-color: black}
+    20%{top:-350px;left: 350px;background-color: rgb(18, 18, 19)}
+    40%{background-color: white;}
+    60%{top:0px;background-color: white;}
+    80%{top:0px;background-color: white;}
+    100%{top:0px;background-color: white;}
+}
+.parent div:nth-child(12){
+    width: 50px;
+    height: 50px;
+    animation-name: twelve;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes twelve{
+    0%{top:-550px;left:0px;background-color: black}
+    20%{top:-350px;left: 350px;background-color: rgb(18, 18, 19)}
+    40%{background-color: white;}
+    60%{top:0px;background-color: white;}
+    80%{top:0px;background-color: white;}
+    100%{top:0px;background-color: white;}
+}
+.parent div:nth-child(13){
+    width: 50px;
+    height: 50px;
+    animation-name: thirteen;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes thirteen{
+    0%{top:-600px;left:0px;background-color: black}
+    20%{top:-350px;left: 350px;background-color: rgb(18, 18, 19)}
+    40%{background-color: white;}
+    60%{top:0px;background-color: white;}
+    80%{top:0px;background-color: white;}
+    100%{top:0px;background-color: white;}
+}
